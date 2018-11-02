@@ -7,10 +7,13 @@
         <meta name="author" content="Mario Reckl" />
 
         <title>Mario Reckl's Space</title>
-    
+
         <link href="libraries/font-awesome.min.css" rel="stylesheet" /> <!-- for arrow -->
-        <link href="libraries/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
         <link href="cssOverrides/index.css" rel="stylesheet" />
+
     </head>
     <body>
         
@@ -19,8 +22,14 @@
              style="background-image: url(assets/graffiti.jpg)">
 
             <!-- START OF NAVBAR -->
-            <nav class="banner banner-top bg-none">
-                <img class="logo" src="assets/home-icon.png"/> 
+            <nav class="banner banner-top navbar justify-content-between bg-none">
+              <img class="logo" src="assets/home-icon.png"/> 
+              <form class="form-inline">
+                <a href="#" class="fa fa-linkedin fa-2x icon"></a>
+                <a href="#" class="fa fa-twitter fa-2x icon"></a>
+                <a href="#" class="fa fa-github fa-2x icon"></a>
+                <a href="#" class="fa fa-envelope fa-2x icon"></a>
+              </form>
             </nav>
             <!-- /END OF NAVBAR -->
 
@@ -29,6 +38,9 @@
                 <img class="circularPicture" src=""/> 
                 <h1 >Mario Reckl</h1>
                 <h2>Software Developer</h2>
+                <div class="container">
+                    <button class="pulse-button">Contact Me</button>
+                </div>
             </div>
             <!-- START OF OVERVIEW -->
 
@@ -42,11 +54,11 @@
 
         <!-- START OF ABOUT -->
         <div id="about"
-             class="center-text fill-screen container"
+             class="fill-screen container row h-100"
              style="background-image: url(assets/BlueTrapezoid2.png); background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position-x: center; height:500px">
-            <div class="center">
+            <div class="col-sm-12 my-auto center-text">
                 <div>I am constantly curouse about the intersection of medicine and technology</div>
                 <div>I create to solve problems, to simplify complex ideas and to improve people's lives</div>
             </div>
@@ -55,11 +67,11 @@
 
 		<!-- START OF EXPERIENCE -->
 		<div id="experience" 
-             class="center-text fill-screen container"
+             class="center-text fill-screen container row h-100"
             style="background-image: url(assets/BlueSquares.png); background-repeat: no-repeat;
                     background-attachment: fixed;
                     background-position-x: center; height:500px">
-            <div class="center">
+            <div class="col-sm-12 my-auto center-text">
                 <div>Experience</div>
                 <div>
                     <h3>Desktop Developer</h3>
@@ -77,23 +89,24 @@
 
         <!-- START OF EDUCATION -->
         <div id="educationOverview"
-             class="fill-screen center-text"
+             class="center-text fill-screen container row h-100"
              style="background-color: lightsalmon; background-repeat: no-repeat; margin:0px;">
-
-            <div>Education</div>
-            <div>Honours BSc Double Major</div>
-            <div>From Western University</div>
-            <div>2013-2018</div>
-            <div class="row align-items-start justify-content-center">
-                <div class="col-md-6 col-12 ">
-                    <div>Major</div>
-                    <div>Medical Sciences</div>
-                    <div id="majorOne">One of 2 columns</div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div>Major</div>
-                    <div>Computer Science</div>
-                    <div id="majorTwo">One of 2 columns</div>
+            <div class="col-sm-12 my-auto center-text">
+                <div>Education</div>
+                <div>Honours BSc Double Major</div>
+                <div>From Western University</div>
+                <div>2013-2018</div>
+                <div class="row align-items-start justify-content-center">
+                    <div class="col-md-6 col-12 ">
+                        <div>Major</div>
+                        <div>Medical Sciences</div>
+                        <div id="majorOne">One of 2 columns</div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div>Major</div>
+                        <div>Computer Science</div>
+                        <div id="majorTwo">One of 2 columns</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,13 +114,18 @@
 
         <!-- START OF CONTACT -->
         <div id="contact"
-             class="fill-screen center-text"
+             class="center-text fill-screen container row h-100"
              style="background-color: yellowgreen; background-repeat: no-repeat; margin:0px;">
-
-            <div>Contact me!</div>
-
-            <h2>marioreckl@hotmail.com</h2>
             
+            <div class="col-sm-12 my-auto center-text">
+                <div>Contact me!</div>
+
+                <h2>marioreckl@hotmail.com</h2>
+
+                <div class="container">
+                    <button class="pulse-button">Contact Me</button>
+                </div>
+            </div>
         </div>
         <!-- /END OF CONTACT -->
         
