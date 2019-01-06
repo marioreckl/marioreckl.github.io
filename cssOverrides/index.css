@@ -29,12 +29,18 @@
 .circularPicture {
     position: relative;
     text-align: center;
-	height: 110px;
-	width: 110px;
+    height: 110px;
+    width: 110px;
     border-radius: 100%;
     background-color: #cccccc;
     background-image: linear-gradient(91deg, transparent 50%, #ccc 50%), linear-gradient(90deg, #ccc 50%, transparent 50%);
 	border: 5px solid white;
+}
+.circularLogo {
+    position: relative;
+    text-align: center;
+    height: 250px;
+    width: 250px;
 }
 .title-row {
     position: relative;
@@ -64,14 +70,14 @@
     text-align: center;
 }
 .down-button i {
-    color: white;
+    color: black;
 }
 .personalOverview h1{
-	color:white;
+	color:black;
 	font-size:4rem;
 }
 .personalOverview h2{
-	color:white;
+	color:black;
 	font-size:3rem;
 }
 /*Other*/
@@ -126,7 +132,8 @@
 
 
 .icon{
-    color:aquamarine;
+    color:#444;
+    margin-top: 15px;
     margin-left: 5px;
     margin-right: 5px;
 }
