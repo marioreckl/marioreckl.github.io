@@ -183,19 +183,19 @@
         display:table-cell;
         float:none;
     }
-	.circularPicture {
-		width: 150px;
-		height: 150px;
-	}
-	.logo {
-		width: 75px;
-		height: 75px;
-	}
-	.center{
-		top: 50%;
-		left:50%;
-		transform: translate(-50%, -50%);
-	}
+    .circularPicture {
+        width: 150px;
+        height: 150px;
+    }
+    .logo {
+        width: 75px;
+        height: 75px;
+    }
+    .center{
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
 }
 @media (min-width: 992px) {
     .CS-major{
@@ -222,14 +222,14 @@
         display:table-cell;
         float:none;
     }
-	.circularPicture {
-		width: 175px;
-		height: 175px;
-	}
-	.logo {
-		width: 90px;
-		height: 90px;
-	}
+    .circularPicture {
+        width: 175px;
+        height: 175px;
+    }
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
 }
 @media (min-width: 1200px) {
     .CS-major{
@@ -248,8 +248,8 @@
         display:table;
         padding-left:0px;
         padding-right:0px;
-		margin-left: 0px;
-		margin-right:0px;
+        margin-left: 0px;
+        margin-right:0px;
     }
     .row-lg-height {
         display:table-row;
@@ -258,14 +258,14 @@
         display:table-cell;
         float:none;
     }
-	.circularPicture {
-		width: 175px;
-		height: 175px;
-	}
-	.logo {
-		width: 90px;
-		height: 90px;
-	}
+    .circularPicture {
+        width: 175px;
+        height: 175px;
+    }
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 1.5),
@@ -279,4 +279,21 @@ only screen and (min-device-pixel-ratio: 1.5){
     overflow-x:hidden;
   }
 
+}
+@media only screen and (max-width: 480px) {
+h1 { font-size: 48px !important; }
+h2 { font-size: 32px !important; }
+h3 { font-size: 30px !important; }
+.center{
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -75%);
+}
+.below-center{
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, 60%);
+}
 }
