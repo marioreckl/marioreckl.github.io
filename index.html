@@ -1,26 +1,36 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165925422-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-165925422-1');
+		</script>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Mario Reckl's Website!" />
         <meta name="author" content="Mario Reckl" />
 
-        <title>Mario Reckl's Space</title>
+        <title>Mario Reckl's Website</title>
 
         <link href="libraries/font-awesome.min.css" rel="stylesheet" /> <!-- for arrow -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     	<script src="libraries/jquery-1.9.0.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
         <link href="cssOverrides/index.css" rel="stylesheet" />
 
     </head>
-    <body style="background-color:#0597F2">
+    <body style="
+  background-color: #0597F2; /* For browsers that do not support gradients */
+  background-image: linear-gradient(-75deg, #977EF2, #0597F2, #977EF2);">
         
 		<!-- START OF INTRO -->
-        <div class="fill-screen"
-             >
+        <div class="fill-screen">
 
             <!-- START OF NAVBAR -->
             <nav class="banner banner-top navbar justify-content-between bg-none">
@@ -54,80 +64,46 @@
         <!-- END OF INTRO -->
 
         <!-- START OF ABOUT -->
-		<div id="about" 
-             class="row center-text h-100 container fill-screen">
-           
-					<img class="col-4 mad-scientist-img" src="assets/madScientist.gif" style="margin-bottom: 20vh; margin-top: 20vh"/>
-					<div class="col-8" style="margin-bottom: 20vh; margin-top: 20vh">
-						<h1 style="color:white"> Mad Scientist</h1>
-						</div>
-				<div class="col-8" style="margin-bottom: 20vh; margin-top: 20vh">
-					<h1 style="color:white"> Software Developer</h1>
-            </div>
-				<img class="col-4 mad-scientist-img" src="assets/madScientist.gif" style="margin-bottom: 20vh; margin-top: 20vh"/>
-					
+		<div id="about" class="row  h-100 container form-inline justify-content-between fill-screen">
+			<div class="col-12">
+			<div class="center-text">
+				<h1 class="limit-width" style="color:white">I am Software Developer focused on making the world a better place through innovating healthcare.</h1>
+			</div>
+			</div>
         </div>
-        <!-- /END OF ABOUT -->
-
-		<!-- START OF EXPERIENCE -->
-		<div id="experience" 
-             class="center-text fill-screen container row h-100"
-            style="background-color: #0597F2; background-repeat: no-repeat; margin:0px; color:white;">
-            <div class="col-sm-12 my-auto center-text">
-                <h3 class="accent-colour">Experience</h3>
-                <div>
-                    <h1>Desktop Developer</h1>
-                    <h4 style="color:#FCEE21">Unitron Global | 2018-present</h4>
-                </div>
-                <div>
-                    <h1>Software Engineer I</h1>
-                    <h4 style="color:#FCEE21">CDK | 2016-2017</h4>
-                </div>
-            </div>
+        <!-- /END OF ABOUT -->     
+		
+		<!-- START OF PRESENTATIONS -->
+		<div id="about" class="center-text h-100 container row fill-screen">
+		<div class="form-inline col-12">
+		<h1 class=" col-12" style="color:white">In Depth Topics</h1>
+		</div>
+			<div class="auto-margin row">
+			
+				<div class="col-12 col-md-6" >
+					<div class="card" style="margin:5px;">
+					  <img class="card-img-top" src="..." alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Learn About the Flu</h5>
+						<p class="card-text">Interested in the virology of the influenza virus?</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+					  </div>
+				    </div>
+				</div>
+				<div class="col-12 col-md-6" >
+					<div class="card" style="margin:5px;">
+					  <img class="card-img-top" src="..." alt="Card image cap">
+					  <div class="card-body">
+						<h5 class="card-title">Covid-19</h5>
+						<p class="card-text">Interested in the virology of Covid-19?</p>
+						<a href="#" class="btn btn-primary">Learn More</a>
+					  </div>
+					</div>
+				</div>
+			</div>
         </div>
-		<!-- /END OF EXPERIENCE -->
-
-        <!-- START OF EDUCATION -->
-        <div id="educationOverview"
-             class="center-text fill-screen container row h-100"
-             style="background-color:#0597F2">
-            <div class="col-sm-12 my-auto center-text">
-                <div class="accent-rectangle" style="background-color:white;">
-                    <h2>Education</h2>
-                    <h1>Honours BSc Double Major</h1>
-                    <h4>Western University | 2013-2018</h4>
-                </div>
-                <div class="row align-items-start justify-content-center">
-                    <div class="col-md-6 col-12 MS-major">
-                        <h3>Major</h3>
-                        <h3>Medical Sciences</h3>
-                    </div>
-                    <div class="col-md-6 col-12 CS-major">
-                        <h3>Major</h3>
-                        <h3>Computer Science</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /END OF EDUCATION -->
-
-        <!-- START OF CONTACT -->
-        <div id="contact"
-             class="center-text fill-screen container row h-100"
-             style="background-color: #3FA9F5; background-repeat: no-repeat; margin:0px; color:white;">
-            
-            <div class="col-sm-12 my-auto center-text">
-                <h4>Contact me!</h4>
-
-                <h3>marioreckl@hotmail.com</h3>
-
-                <div class="container">
-                    <button class="contact-button " >Let's Connect!</button>
-                </div>
-            </div>
-        </div>
-        <!-- /END OF CONTACT -->
-        
+        <!-- /END OF PRESENTATIONS -->   
+		
 	</body>
 
     <script src="libraries/jquery.easing.1.3.js"></script>
