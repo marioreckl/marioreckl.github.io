@@ -44,12 +44,12 @@ scene.add(pointLight, ambientLight);
 
 const loader = new TextureLoader();
 const cubeMaterials = [
-    new MeshBasicMaterial({ map: loader.load('assets/Right.png') }), 
-    new MeshBasicMaterial({ map: loader.load('assets/Left.png')}), 
-    new MeshBasicMaterial({ map: loader.load('assets/Top.png')}), 
-    new MeshBasicMaterial({ map: loader.load('assets/Bottom.png')}), 
-    new MeshBasicMaterial({ map: loader.load('assets/Front.png')}), 
-    new MeshBasicMaterial({ map: loader.load('assets/Back.png')}), 
+    new MeshBasicMaterial({ map: loader.load('/assets/Right.png') }), 
+    new MeshBasicMaterial({ map: loader.load('/assets/Left.png')}), 
+    new MeshBasicMaterial({ map: loader.load('/assets/Top.png')}), 
+    new MeshBasicMaterial({ map: loader.load('/assets/Bottom.png')}), 
+    new MeshBasicMaterial({ map: loader.load('/assets/Front.png')}), 
+    new MeshBasicMaterial({ map: loader.load('/assets/Back.png')}), 
 ];
 
 const mainCubeMesh = new Mesh(new BoxGeometry(3, 3, 3), cubeMaterials);
