@@ -57,8 +57,8 @@ const mainCubeMesh = new Mesh(new BoxGeometry(3, 3, 3), cubeMaterials);
 scene.add(mainCubeMesh);
 
 
-const camera = new PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 0.1, 1000 );
-camera.position.set(-2, 2, 5);
+const camera = new PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+camera.position.set(-3, 2, 5);
 scene.add(camera);
 
 
