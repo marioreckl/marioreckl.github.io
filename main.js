@@ -13,7 +13,7 @@ import {
   PointLight,
   AmbientLight,
   Color
-} from "three";
+} from 'https://cdn.skypack.dev/three@0.137.5';
 import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.112.1/examples/jsm/controls/OrbitControls.js";
 
 let modelObject;
@@ -44,12 +44,12 @@ scene.add(pointLight, ambientLight);
 
 const loader = new TextureLoader();
 const cubeMaterials = [
-    new MeshBasicMaterial({ map: loader.load('Assets/Right.png') }), 
-    new MeshBasicMaterial({ map: loader.load('Assets/Left.png')}), 
-    new MeshBasicMaterial({ map: loader.load('Assets/Top.png')}), 
-    new MeshBasicMaterial({ map: loader.load('Assets/Bottom.png')}), 
-    new MeshBasicMaterial({ map: loader.load('Assets/Front.png')}), 
-    new MeshBasicMaterial({ map: loader.load('Assets/Back.png')}), 
+    new MeshBasicMaterial({ map: loader.load('assets/Right.png') }), 
+    new MeshBasicMaterial({ map: loader.load('assets/Left.png')}), 
+    new MeshBasicMaterial({ map: loader.load('assets/Top.png')}), 
+    new MeshBasicMaterial({ map: loader.load('assets/Bottom.png')}), 
+    new MeshBasicMaterial({ map: loader.load('assets/Front.png')}), 
+    new MeshBasicMaterial({ map: loader.load('assets/Back.png')}), 
 ];
 
 const mainCubeMesh = new Mesh(new BoxGeometry(3, 3, 3), cubeMaterials);
